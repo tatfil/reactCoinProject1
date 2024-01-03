@@ -25,8 +25,7 @@ export function Coin({ coin }: CoinProps) {
       {details && (
         <div>
           <p>
-            Name: <span style={{ fontWeight: "bold" }}>{coin.name}</span>
-            <Fetch />
+            <Fetch id={coin.id} />
           </p>
         </div>
       )}

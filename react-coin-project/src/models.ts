@@ -9,12 +9,12 @@ export interface ICoin {
 }
 
 export interface ICoinDetails {
-  id: number;
+  id: string;
   name: string;
   symbol: string;
   hashing_algorithm: string;
-  description: string;
-  marketCapInEuro: bigint;
+  description: object;
+  marketCapInEuro: number;
   homepage: string;
-  genesis_date: Date;
+  genesis_date: string;
 }
