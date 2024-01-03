@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+.coin-container {
+  gap: 10px;
+  min-width: 150px;
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: stretch;
+}
+
+.coin-item {
+  border-radius: 1em;
+  background-color: #aed6f1;
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.coin-button {
+  border-radius: 1em;
+  background-color: #5dade2;
+  padding: 1rem;
+  font-size: 2 rem;
+  cursor: pointer;
+}
