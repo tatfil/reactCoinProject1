@@ -14,7 +14,7 @@ const Fetch = () => {
       {details.map((detail: ICoinDetails) => (
         <div className="coin-item">
           <p>{detail.hashing_algorithm}</p>
-          <p>{detail.description}</p>
+          {/* <p>{detail.description}</p> */}
           <p>{detail.homepage}</p>
         </div>
       ))}
