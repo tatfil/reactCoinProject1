@@ -18,8 +18,3 @@ export interface ICoinDetails {
   homepage: string;
   genesis_date: Date;
 }
-export interface IFotos {
-  id: number;
-  url: string;
-  title: string;
-}

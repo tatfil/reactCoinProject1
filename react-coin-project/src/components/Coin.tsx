@@ -10,7 +10,6 @@ export function Coin({ coin }: CoinProps) {
   const [details, ifSetDetails] = useState(false);
   const [name, setName] = useState("");
 
-  setName(coin.name);
   return (
     <div className="coin-item">
       <img src={coin.image} alt={coin.name} />

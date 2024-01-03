@@ -14,6 +14,7 @@ const Fetch = () => {
     axios
       .get("https://api.coingecko.com/api/v3/coins/bitcoin")
       .then((response) => {
+        console.log(response.data);
         setDetails(response.data);
         setHashAlg(response.data.hashing_algorithm);
       });
